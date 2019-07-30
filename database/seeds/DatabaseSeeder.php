@@ -12,7 +12,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         //1.Lan 1
-//        $this->call(AdminTableSeeder::class);
+        $this->call(MemberTableSeeder::class);
 //        $this->call(CustomerTableSeeder::class);
 //        $this->call(ProducerTableSeeder::class);
 //        $this->call(CategoryTableSeeder::class);
